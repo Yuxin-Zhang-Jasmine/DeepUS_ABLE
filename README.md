@@ -17,9 +17,9 @@ All of the datasets is in **.mat** format which overall occupy over 1.2 GB space
 (version1 starts on 16 April 2021)
 
 (version2 starts on 18 April 2021)
-##### 1. version2 use custom loss function (loss_SMSLE, loss_unity), but version1 just use keras built-in loss MSLE
-##### 2. version2 consider evaluation_split=0.3, version1 don't use validation set
-##### 3. version2 use callbacks to do model saving and early stopping, which is not considered in version1
+##### 1. version2 uses custom loss function (loss_SMSLE, loss_unity), but version1 only uses keras built-in loss MSLE
+##### 2. version2 considers evaluation_split=0.3, version1 doesn't use validation set
+##### 3. version2 uses callbacks to do Model Saving and Early Stopping, which are not considered in version1
 ##### 4. version2's beamformed images are worse than that of version1, because 30% data is used to do evaluation.
 
 ## Notes
